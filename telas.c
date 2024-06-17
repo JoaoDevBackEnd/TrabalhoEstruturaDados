@@ -168,6 +168,7 @@ void menu_Produto() {
 
     switch (choice) {
         case 1: case 2: case 3:
+            x=choice;
             navegaPara(menu_cadastro_Consulta);
             break;
         case 4: case 5: case 6: case 8:
@@ -437,7 +438,7 @@ void menu_cadastro_Consulta() {
     printf("9  - RETORNAR AO MENU");
 
     reg_produto novo_produto;
-    if (x == 1 || x == 2 || x==3 || x==4) { 
+    if (x == 1 || x == 2 || x==3 ) { 
         gotoxy(44, 7);
         scanf("%d", &novo_produto.cd_produto); 
         gotoxy(48, 9);

@@ -17,7 +17,6 @@ void cadastrar_movimentacao_Produto();
 void menu_consultar_movimentacao();
 void remover_ProdutoLista();
 
-
 extern TipoLista lista_de_produtos;
 void cadastrarProdutoFinalLista(reg_produto produto);
 void cadastrarProdutoInicioLista(reg_produto produto);

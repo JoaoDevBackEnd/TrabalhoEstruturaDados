@@ -66,7 +66,6 @@ void inserirProduto(TipoLista *lista, reg_produto produto) {
         lista->Primeiro = novoItem;
         lista->Ultimo = novoItem;
     } else {
-        // Caso contrário, adicionamos o novo item no final
         lista->Ultimo->proximo = novoItem;
         lista->Ultimo = novoItem;
     }
